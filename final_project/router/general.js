@@ -31,7 +31,7 @@ let myPromise = new Promise((resolve,reject) => {
 
 //Call the promise and wait for it to be resolved and then print a message.
 myPromise.then((successMessage) => {
-    console.log("From Callback " + successMessage)
+    console.log("From Callback ")
     successMessage.forEach((book) => {
         console.log(book);
 });
